@@ -12,7 +12,7 @@
 #adjust dir below. Example: dir="/home/nthx/odroid-xu4-fan-control/"
 dir=""
 user="root"
-cmd="./odroid-xu4-fan-control.sh"
+cmd="/myhome/dev/odroid-xu4-fan-control/odroid-xu4-fan-control.sh"
 
 name=`basename $0`
 pid_file="/var/run/$name.pid"
